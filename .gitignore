@@ -8,6 +8,7 @@ build
 *.db-journal
 logs
 web/dist
+web/node_modules
 .env
 one-api
 new-api
@@ -27,3 +28,12 @@ data/
 .gomodcache/
 .gocache-temp
 .gopath
+
+# 编译产物
+bin/new-api.exe
+bin/*.exe
+bin/*.db
+bin/logs/
+
+# Docker 镜像文件
+*.tar
