@@ -1,0 +1,17 @@
+.github
+.git
+.gitignore
+.gitattributes
+*.md
+.vscode
+Makefile
+docs
+.eslintcache
+.gocache
+/web/node_modules
+/web/dist
+/bin
+/logs
+/data
+*.tar
+*.log
